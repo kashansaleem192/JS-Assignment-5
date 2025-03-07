@@ -74,3 +74,33 @@ for ( var i = 0; i< arr.length ;i++){
 if( !found){ 
     console.log("We are sorry." ,cookies_input ,"is not available in our bakery");
 }
+
+// Q 8
+
+var  A = [24, 53, 78, 91, 12]
+var largestNum = A[0]
+for( var i = 1;i<A.length;i++){
+    if( A[i]>largestNum){ 
+        largestNum=A[i]
+    }
+ }
+console.log( "Array Items", A)
+console.log( "The Largest number is ",largestNum)
+
+// Q 9
+
+var  A = [24, 53, 78, 91, 12]
+var smallestNum = A[0]
+for( var i = 1;i<A.length;i++){
+    if( A[i]<largestNum){ 
+        largestNum=A[i]
+    }
+ }
+console.log( "Array Items", A)
+console.log( "The Largest number is ",largestNum)
+
+// Q 10
+for (var i = 5;i<=100;i+=5){
+    console.log( i)
+
+}
